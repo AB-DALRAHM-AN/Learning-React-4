@@ -1,13 +1,11 @@
 import React from 'react';
-import Example from './components/count';
-import Counter from './components/countClass';
 import './App.css';
+import Productlist from './components/productlist';
 
 function App() {
   return (
     <div className="App">
-      <Example />
-      <Counter />
+      <Productlist />
     </div>
   );
 }
